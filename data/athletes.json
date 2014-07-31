@@ -1,4 +1,4 @@
-var athletes = [
+[
   {
     "name": "Rich Froning",
     "href": "http://games.crossfit.com/athlete/11435",
