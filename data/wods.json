@@ -1,0 +1,3341 @@
+var wods = [
+  {
+    "name": "The Beach",
+    "scores": [
+      {
+        "athleteId": 11435,
+        "rank": 8,
+        "points": 71,
+        "score": "35:10.11"
+      },
+      {
+        "athleteId": 153604,
+        "rank": 17,
+        "points": 53,
+        "score": "36:31.85"
+      },
+      {
+        "athleteId": 12485,
+        "rank": 18,
+        "points": 51,
+        "score": "36:34.43"
+      },
+      {
+        "athleteId": 124483,
+        "rank": 3,
+        "points": 90,
+        "score": "31:56.10"
+      },
+      {
+        "athleteId": 34796,
+        "rank": 10,
+        "points": 67,
+        "score": "35:30.16"
+      },
+      {
+        "athleteId": 8746,
+        "rank": 26,
+        "points": 35,
+        "score": "40:00.20"
+      },
+      {
+        "athleteId": 43761,
+        "rank": 11,
+        "points": 65,
+        "score": "35:32.02"
+      },
+      {
+        "athleteId": 2725,
+        "rank": 5,
+        "points": 80,
+        "score": "32:28.94"
+      },
+      {
+        "athleteId": 30740,
+        "rank": 23,
+        "points": 41,
+        "score": "39:12.10"
+      },
+      {
+        "athleteId": 47661,
+        "rank": 9,
+        "points": 69,
+        "score": "35:26.63"
+      },
+      {
+        "athleteId": 126813,
+        "rank": 6,
+        "points": 75,
+        "score": "33:17.33"
+      },
+      {
+        "athleteId": 7285,
+        "rank": 34,
+        "points": 23,
+        "score": "43:33.68"
+      },
+      {
+        "athleteId": 25569,
+        "rank": 24,
+        "points": 39,
+        "score": "39:25.02"
+      },
+      {
+        "athleteId": 35627,
+        "rank": 13,
+        "points": 61,
+        "score": "35:41.57"
+      },
+      {
+        "athleteId": 24156,
+        "rank": 31,
+        "points": 26,
+        "score": "41:57.86"
+      },
+      {
+        "athleteId": 131845,
+        "rank": 42,
+        "points": 15,
+        "score": "CAP+51"
+      },
+      {
+        "athleteId": 153625,
+        "rank": 12,
+        "points": 63,
+        "score": "35:35.38"
+      },
+      {
+        "athleteId": 199938,
+        "rank": 16,
+        "points": 55,
+        "score": "36:23.28"
+      },
+      {
+        "athleteId": 21343,
+        "rank": 14,
+        "points": 59,
+        "score": "35:46.12"
+      },
+      {
+        "athleteId": 4895,
+        "rank": 1,
+        "points": 100,
+        "score": "29:34.44"
+      },
+      {
+        "athleteId": 4945,
+        "rank": 22,
+        "points": 43,
+        "score": "38:26.08"
+      },
+      {
+        "athleteId": 19269,
+        "rank": 38,
+        "points": 19,
+        "score": "CAP+1"
+      },
+      {
+        "athleteId": 24309,
+        "rank": 21,
+        "points": 45,
+        "score": "37:36.86"
+      },
+      {
+        "athleteId": 53314,
+        "rank": 29,
+        "points": 29,
+        "score": "29 pts41:01.94"
+      },
+      {
+        "athleteId": 13913,
+        "rank": 37,
+        "points": 20,
+        "score": "44:49.47"
+      },
+      {
+        "athleteId": 81616,
+        "rank": 20,
+        "points": 47,
+        "score": "37:17.20"
+      },
+      {
+        "athleteId": 105874,
+        "rank": 4,
+        "points": 85,
+        "score": "32:05.72"
+      },
+      {
+        "athleteId": 27065,
+        "rank": 15,
+        "points": 57,
+        "score": "36:22.00"
+      },
+      {
+        "athleteId": 1690,
+        "rank": 25,
+        "points": 37,
+        "score": "39:50.58"
+      },
+      {
+        "athleteId": 7314,
+        "rank": 7,
+        "points": 73,
+        "score": "34:53.78"
+      },
+      {
+        "athleteId": 8356,
+        "rank": 39,
+        "points": 18,
+        "score": "CAP+2"
+      },
+      {
+        "athleteId": 173837,
+        "rank": 2,
+        "points": 95,
+        "score": "31:33.94"
+      },
+      {
+        "athleteId": 15617,
+        "rank": 33,
+        "points": 24,
+        "score": "42:52.02"
+      },
+      {
+        "athleteId": 38209,
+        "rank": 35,
+        "points": 22,
+        "score": "44:04.20"
+      },
+      {
+        "athleteId": 105614,
+        "rank": 43,
+        "points": 14,
+        "score": "CAP+82"
+      },
+      {
+        "athleteId": 111574,
+        "rank": 19,
+        "points": 49,
+        "score": "36:37.09"
+      },
+      {
+        "athleteId": 53824,
+        "rank": 32,
+        "points": 25,
+        "score": "42:37.20"
+      },
+      {
+        "athleteId": 25957,
+        "rank": 41,
+        "points": 16,
+        "score": "CAP+26"
+      },
+      {
+        "athleteId": 28040,
+        "rank": 30,
+        "points": 27,
+        "score": "41:35.56"
+      },
+      {
+        "athleteId": 93488,
+        "rank": 40,
+        "points": 17,
+        "score": "CAP+3"
+      },
+      {
+        "athleteId": 9193,
+        "rank": 28,
+        "points": 31,
+        "score": "40:15.36"
+      },
+      {
+        "athleteId": 249055,
+        "rank": 27,
+        "points": 33,
+        "score": "40:13.22"
+      },
+      {
+        "athleteId": 49510,
+        "rank": 36,
+        "points": 21,
+        "score": "44:35.94"
+      }
+    ],
+    "type": "for_time"
+  },
+  {
+    "name": "Overhead Squat",
+    "scores": [
+      {
+        "athleteId": 11435,
+        "rank": 1,
+        "points": 100,
+        "score": "377 lb"
+      },
+      {
+        "athleteId": 153604,
+        "rank": 1,
+        "points": 100,
+        "score": "377 lb"
+      },
+      {
+        "athleteId": 12485,
+        "rank": 5,
+        "points": 80,
+        "score": "367 lb"
+      },
+      {
+        "athleteId": 124483,
+        "rank": 27,
+        "points": 33,
+        "score": "318 lb"
+      },
+      {
+        "athleteId": 34796,
+        "rank": 8,
+        "points": 71,
+        "score": "360 lb"
+      },
+      {
+        "athleteId": 8746,
+        "rank": 3,
+        "points": 90,
+        "score": "376 lb"
+      },
+      {
+        "athleteId": 43761,
+        "rank": 9,
+        "points": 69,
+        "score": "357 lb"
+      },
+      {
+        "athleteId": 2725,
+        "rank": 14,
+        "points": 59,
+        "score": "337 lb"
+      },
+      {
+        "athleteId": 30740,
+        "rank": 16,
+        "points": 55,
+        "score": "335 lb"
+      },
+      {
+        "athleteId": 47661,
+        "rank": 22,
+        "points": 43,
+        "score": "327 lb"
+      },
+      {
+        "athleteId": 126813,
+        "rank": 15,
+        "points": 57,
+        "score": "336 lb"
+      },
+      {
+        "athleteId": 7285,
+        "rank": 31,
+        "points": 26,
+        "score": "316 lb"
+      },
+      {
+        "athleteId": 25569,
+        "rank": 11,
+        "points": 65,
+        "score": "350 lb"
+      },
+      {
+        "athleteId": 35627,
+        "rank": 23,
+        "points": 41,
+        "score": "326 lb"
+      },
+      {
+        "athleteId": 24156,
+        "rank": 6,
+        "points": 75,
+        "score": "365 lb"
+      },
+      {
+        "athleteId": 131845,
+        "rank": 40,
+        "points": 17,
+        "score": "290 lb"
+      },
+      {
+        "athleteId": 153625,
+        "rank": 16,
+        "points": 55,
+        "score": "335 lb"
+      },
+      {
+        "athleteId": 199938,
+        "rank": 37,
+        "points": 20,
+        "score": "300 lb"
+      },
+      {
+        "athleteId": 21343,
+        "rank": 16,
+        "points": 55,
+        "score": "335 lb"
+      },
+      {
+        "athleteId": 4895,
+        "rank": 43,
+        "points": 0,
+        "score": false
+      },
+      {
+        "athleteId": 4945,
+        "rank": 28,
+        "points": 31,
+        "score": "317 lb"
+      },
+      {
+        "athleteId": 19269,
+        "rank": 25,
+        "points": 37,
+        "score": "325 lb"
+      },
+      {
+        "athleteId": 24309,
+        "rank": 28,
+        "points": 31,
+        "score": "317 lb"
+      },
+      {
+        "athleteId": 53314,
+        "rank": 19,
+        "points": 49,
+        "score": "331 lb"
+      },
+      {
+        "athleteId": 13913,
+        "rank": 13,
+        "points": 61,
+        "score": "338 lb"
+      },
+      {
+        "athleteId": 81616,
+        "rank": 31,
+        "points": 26,
+        "score": "316 lb"
+      },
+      {
+        "athleteId": 105874,
+        "rank": 34,
+        "points": 23,
+        "score": "315 lb"
+      },
+      {
+        "athleteId": 27065,
+        "rank": 41,
+        "points": 16,
+        "score": "275 lb"
+      },
+      {
+        "athleteId": 1690,
+        "rank": 36,
+        "points": 21,
+        "score": "310 lb"
+      },
+      {
+        "athleteId": 7314,
+        "rank": 26,
+        "points": 35,
+        "score": "320 lb"
+      },
+      {
+        "athleteId": 8356,
+        "rank": 6,
+        "points": 75,
+        "score": "365 lb"
+      },
+      {
+        "athleteId": 173837,
+        "rank": 28,
+        "points": 31,
+        "score": "317 lb"
+      },
+      {
+        "athleteId": 15617,
+        "rank": 37,
+        "points": 20,
+        "score": "300 lb"
+      },
+      {
+        "athleteId": 38209,
+        "rank": 11,
+        "points": 65,
+        "score": "350 lb"
+      },
+      {
+        "athleteId": 105614,
+        "rank": 4,
+        "points": 85,
+        "score": "375 lb"
+      },
+      {
+        "athleteId": 111574,
+        "rank": 20,
+        "points": 47,
+        "score": "330 lb"
+      },
+      {
+        "athleteId": 53824,
+        "rank": 10,
+        "points": 67,
+        "score": "356 lb"
+      },
+      {
+        "athleteId": 25957,
+        "rank": 23,
+        "points": 41,
+        "score": "326 lb"
+      },
+      {
+        "athleteId": 28040,
+        "rank": 34,
+        "points": 23,
+        "score": "315 lb"
+      },
+      {
+        "athleteId": 93488,
+        "rank": 39,
+        "points": 18,
+        "score": "295 lb"
+      },
+      {
+        "athleteId": 9193,
+        "rank": 31,
+        "points": 26,
+        "score": "316 lb"
+      },
+      {
+        "athleteId": 249055,
+        "rank": 41,
+        "points": 16,
+        "score": "275 lb"
+      },
+      {
+        "athleteId": 49510,
+        "rank": 20,
+        "points": 47,
+        "score": "330 lb"
+      }
+    ],
+    "type": "for_weight"
+  },
+  {
+    "name": "Triple-3",
+    "scores": [
+      {
+        "athleteId": 11435,
+        "rank": 37,
+        "points": 20,
+        "score": "38:31.38"
+      },
+      {
+        "athleteId": 153604,
+        "rank": 19,
+        "points": 49,
+        "score": "35:34.86"
+      },
+      {
+        "athleteId": 12485,
+        "rank": 16,
+        "points": 55,
+        "score": "35:14.73"
+      },
+      {
+        "athleteId": 124483,
+        "rank": 5,
+        "points": 80,
+        "score": "34:11.72"
+      },
+      {
+        "athleteId": 34796,
+        "rank": 18,
+        "points": 51,
+        "score": "35:26.59"
+      },
+      {
+        "athleteId": 8746,
+        "rank": 13,
+        "points": 61,
+        "score": "35:03.64"
+      },
+      {
+        "athleteId": 43761,
+        "rank": 20,
+        "points": 47,
+        "score": "35:44.84"
+      },
+      {
+        "athleteId": 2725,
+        "rank": 6,
+        "points": 75,
+        "score": "34:16.76"
+      },
+      {
+        "athleteId": 30740,
+        "rank": 3,
+        "points": 90,
+        "score": "33:56.65"
+      },
+      {
+        "athleteId": 47661,
+        "rank": 30,
+        "points": 27,
+        "score": "36:33.87"
+      },
+      {
+        "athleteId": 126813,
+        "rank": 10,
+        "points": 67,
+        "score": "34:47.20"
+      },
+      {
+        "athleteId": 7285,
+        "rank": 1,
+        "points": 100,
+        "score": "33:03.56"
+      },
+      {
+        "athleteId": 25569,
+        "rank": 12,
+        "points": 63,
+        "score": "35:02.41"
+      },
+      {
+        "athleteId": 35627,
+        "rank": 8,
+        "points": 71,
+        "score": "34:28.43"
+      },
+      {
+        "athleteId": 24156,
+        "rank": 35,
+        "points": 22,
+        "score": "38:20.32"
+      },
+      {
+        "athleteId": 131845,
+        "rank": 25,
+        "points": 37,
+        "score": "36:03.86"
+      },
+      {
+        "athleteId": 153625,
+        "rank": 28,
+        "points": 31,
+        "score": "36:23.35"
+      },
+      {
+        "athleteId": 199938,
+        "rank": 4,
+        "points": 85,
+        "score": "34:04.93"
+      },
+      {
+        "athleteId": 21343,
+        "rank": 22,
+        "points": 43,
+        "score": "35:48.00"
+      },
+      {
+        "athleteId": 4895,
+        "rank": 2,
+        "points": 95,
+        "score": "33:20.96"
+      },
+      {
+        "athleteId": 4945,
+        "rank": 39,
+        "points": 18,
+        "score": "39:07.17"
+      },
+      {
+        "athleteId": 19269,
+        "rank": 23,
+        "points": 41,
+        "score": "35:52.04"
+      },
+      {
+        "athleteId": 24309,
+        "rank": 7,
+        "points": 73,
+        "score": "34:23.72"
+      },
+      {
+        "athleteId": 53314,
+        "rank": 36,
+        "points": 21,
+        "score": "38:21.65"
+      },
+      {
+        "athleteId": 13913,
+        "rank": 31,
+        "points": 26,
+        "score": "36:54.95"
+      },
+      {
+        "athleteId": 81616,
+        "rank": 24,
+        "points": 39,
+        "score": "36:02.96"
+      },
+      {
+        "athleteId": 105874,
+        "rank": 15,
+        "points": 57,
+        "score": "35:06.94"
+      },
+      {
+        "athleteId": 27065,
+        "rank": 11,
+        "points": 65,
+        "score": "34:56.55"
+      },
+      {
+        "athleteId": 1690,
+        "rank": 17,
+        "points": 53,
+        "score": "35:22.97"
+      },
+      {
+        "athleteId": 7314,
+        "rank": 21,
+        "points": 45,
+        "score": "35:46.62"
+      },
+      {
+        "athleteId": 8356,
+        "rank": 43,
+        "points": 14,
+        "score": "41:26.28"
+      },
+      {
+        "athleteId": 173837,
+        "rank": 42,
+        "points": 15,
+        "score": "41:06.77"
+      },
+      {
+        "athleteId": 15617,
+        "rank": 9,
+        "points": 69,
+        "score": "34:37.75"
+      },
+      {
+        "athleteId": 38209,
+        "rank": 38,
+        "points": 19,
+        "score": "38:57.20"
+      },
+      {
+        "athleteId": 105614,
+        "rank": 27,
+        "points": 33,
+        "score": "36:07.95"
+      },
+      {
+        "athleteId": 111574,
+        "rank": 33,
+        "points": 24,
+        "score": "37:57.60"
+      },
+      {
+        "athleteId": 53824,
+        "rank": 32,
+        "points": 25,
+        "score": "37:09.68"
+      },
+      {
+        "athleteId": 25957,
+        "rank": 14,
+        "points": 59,
+        "score": "35:04.78"
+      },
+      {
+        "athleteId": 28040,
+        "rank": 26,
+        "points": 35,
+        "score": "36:05.99"
+      },
+      {
+        "athleteId": 93488,
+        "rank": 40,
+        "points": 17,
+        "score": "39:43.33"
+      },
+      {
+        "athleteId": 9193,
+        "rank": 34,
+        "points": 23,
+        "score": "38:01.95"
+      },
+      {
+        "athleteId": 249055,
+        "rank": 41,
+        "points": 16,
+        "score": "40:10.63"
+      },
+      {
+        "athleteId": 49510,
+        "rank": 29,
+        "points": 29,
+        "score": "29 pts36:27.09"
+      }
+    ],
+    "type": "for_time"
+  },
+  {
+    "name": "Sprint Sled-1",
+    "scores": [
+      {
+        "athleteId": 11435,
+        "rank": 15,
+        "points": 32,
+        "score": "00:58.02"
+      },
+      {
+        "athleteId": 153604,
+        "rank": 17,
+        "points": 30,
+        "score": "00:58.16"
+      },
+      {
+        "athleteId": 12485,
+        "rank": 2,
+        "points": 48,
+        "score": "00:38.44"
+      },
+      {
+        "athleteId": 124483,
+        "rank": 21,
+        "points": 26,
+        "score": "01:02.57"
+      },
+      {
+        "athleteId": 34796,
+        "rank": 20,
+        "points": 27,
+        "score": "01:00.61"
+      },
+      {
+        "athleteId": 8746,
+        "rank": 3,
+        "points": 46,
+        "score": "00:39.54"
+      },
+      {
+        "athleteId": 43761,
+        "rank": 31,
+        "points": 16,
+        "score": "01:11.39"
+      },
+      {
+        "athleteId": 2725,
+        "rank": 7,
+        "points": 40,
+        "score": "00:49.31"
+      },
+      {
+        "athleteId": 30740,
+        "rank": 11,
+        "points": 36,
+        "score": "00:53.02"
+      },
+      {
+        "athleteId": 47661,
+        "rank": 12,
+        "points": 35,
+        "score": "00:53.40"
+      },
+      {
+        "athleteId": 126813,
+        "rank": 4,
+        "points": 44,
+        "score": "00:40.49"
+      },
+      {
+        "athleteId": 7285,
+        "rank": 16,
+        "points": 31,
+        "score": "00:58.11"
+      },
+      {
+        "athleteId": 25569,
+        "rank": 9,
+        "points": 38,
+        "score": "00:50.87"
+      },
+      {
+        "athleteId": 35627,
+        "rank": 39,
+        "points": 8,
+        "score": "01:30.16"
+      },
+      {
+        "athleteId": 24156,
+        "rank": 1,
+        "points": 50,
+        "score": "00:30.33"
+      },
+      {
+        "athleteId": 131845,
+        "rank": 10,
+        "points": 37,
+        "score": "00:52.53"
+      },
+      {
+        "athleteId": 153625,
+        "rank": 27,
+        "points": 20,
+        "score": "01:06.44"
+      },
+      {
+        "athleteId": 199938,
+        "rank": 6,
+        "points": 41,
+        "score": "00:48.72"
+      },
+      {
+        "athleteId": 21343,
+        "rank": 13,
+        "points": 34,
+        "score": "00:53.87"
+      },
+      {
+        "athleteId": 4895,
+        "rank": 25,
+        "points": 22,
+        "score": "01:04.47"
+      },
+      {
+        "athleteId": 4945,
+        "rank": 14,
+        "points": 33,
+        "score": "00:57.57"
+      },
+      {
+        "athleteId": 19269,
+        "rank": 32,
+        "points": 15,
+        "score": "01:14.50"
+      },
+      {
+        "athleteId": 24309,
+        "rank": 23,
+        "points": 24,
+        "score": "01:03.00"
+      },
+      {
+        "athleteId": 53314,
+        "rank": 8,
+        "points": 39,
+        "score": "00:50.40"
+      },
+      {
+        "athleteId": 13913,
+        "rank": 26,
+        "points": 21,
+        "score": "01:05.38"
+      },
+      {
+        "athleteId": 81616,
+        "rank": 28,
+        "points": 19,
+        "score": "01:10.02"
+      },
+      {
+        "athleteId": 105874,
+        "rank": 38,
+        "points": 9,
+        "score": "01:25.29"
+      },
+      {
+        "athleteId": 27065,
+        "rank": 35,
+        "points": 12,
+        "score": "01:17.52"
+      },
+      {
+        "athleteId": 1690,
+        "rank": 22,
+        "points": 25,
+        "score": "01:02.72"
+      },
+      {
+        "athleteId": 7314,
+        "rank": 30,
+        "points": 17,
+        "score": "01:11.33"
+      },
+      {
+        "athleteId": 8356,
+        "rank": 33,
+        "points": 14,
+        "score": "01:14.76"
+      },
+      {
+        "athleteId": 173837,
+        "rank": 29,
+        "points": 18,
+        "score": "01:10.46"
+      },
+      {
+        "athleteId": 15617,
+        "rank": 19,
+        "points": 28,
+        "score": "01:00.47"
+      },
+      {
+        "athleteId": 38209,
+        "rank": 43,
+        "points": 4,
+        "score": "4 pts01:59.01"
+      },
+      {
+        "athleteId": 105614,
+        "rank": 42,
+        "points": 5,
+        "score": "01:48.63"
+      },
+      {
+        "athleteId": 111574,
+        "rank": 40,
+        "points": 7,
+        "score": "01:39.68"
+      },
+      {
+        "athleteId": 53824,
+        "rank": 5,
+        "points": 42,
+        "score": "00:43.36"
+      },
+      {
+        "athleteId": 25957,
+        "rank": 37,
+        "points": 10,
+        "score": "01:21.64"
+      },
+      {
+        "athleteId": 28040,
+        "rank": 18,
+        "points": 29,
+        "score": "00:59.63"
+      },
+      {
+        "athleteId": 93488,
+        "rank": 34,
+        "points": 13,
+        "score": "01:16.98"
+      },
+      {
+        "athleteId": 9193,
+        "rank": 36,
+        "points": 11,
+        "score": "01:17.53"
+      },
+      {
+        "athleteId": 249055,
+        "rank": 41,
+        "points": 6,
+        "score": "01:43.42"
+      },
+      {
+        "athleteId": 49510,
+        "rank": 24,
+        "points": 23,
+        "score": "01:03.01"
+      }
+    ],
+    "type": "for_time"
+  },
+  {
+    "name": "Sprint Sled-2",
+    "scores": [
+      {
+        "athleteId": 11435,
+        "rank": 27,
+        "points": 20,
+        "score": "02:09.07"
+      },
+      {
+        "athleteId": 153604,
+        "rank": 23,
+        "points": 24,
+        "score": "01:57.08"
+      },
+      {
+        "athleteId": 12485,
+        "rank": 3,
+        "points": 46,
+        "score": "01:10.76"
+      },
+      {
+        "athleteId": 124483,
+        "rank": 19,
+        "points": 28,
+        "score": "01:47.16"
+      },
+      {
+        "athleteId": 34796,
+        "rank": 13,
+        "points": 34,
+        "score": "01:39.55"
+      },
+      {
+        "athleteId": 8746,
+        "rank": 2,
+        "points": 48,
+        "score": "01:10.32"
+      },
+      {
+        "athleteId": 43761,
+        "rank": 25,
+        "points": 22,
+        "score": "02:02.00"
+      },
+      {
+        "athleteId": 2725,
+        "rank": 14,
+        "points": 33,
+        "score": "01:40.25"
+      },
+      {
+        "athleteId": 30740,
+        "rank": 22,
+        "points": 25,
+        "score": "01:54.00"
+      },
+      {
+        "athleteId": 47661,
+        "rank": 15,
+        "points": 32,
+        "score": "01:43.38"
+      },
+      {
+        "athleteId": 126813,
+        "rank": 21,
+        "points": 26,
+        "score": "01:53.68"
+      },
+      {
+        "athleteId": 7285,
+        "rank": 5,
+        "points": 42,
+        "score": "01:27.82"
+      },
+      {
+        "athleteId": 25569,
+        "rank": 7,
+        "points": 40,
+        "score": "01:32.00"
+      },
+      {
+        "athleteId": 35627,
+        "rank": 34,
+        "points": 13,
+        "score": "02:28.07"
+      },
+      {
+        "athleteId": 24156,
+        "rank": 1,
+        "points": 50,
+        "score": "01:09.89"
+      },
+      {
+        "athleteId": 131845,
+        "rank": 26,
+        "points": 21,
+        "score": "02:05.98"
+      },
+      {
+        "athleteId": 153625,
+        "rank": 10,
+        "points": 37,
+        "score": "01:35.21"
+      },
+      {
+        "athleteId": 199938,
+        "rank": 4,
+        "points": 44,
+        "score": "01:22.73"
+      },
+      {
+        "athleteId": 21343,
+        "rank": 29,
+        "points": 18,
+        "score": "02:12.53"
+      },
+      {
+        "athleteId": 4895,
+        "rank": 17,
+        "points": 30,
+        "score": "01:44.92"
+      },
+      {
+        "athleteId": 4945,
+        "rank": 9,
+        "points": 38,
+        "score": "01:32.72"
+      },
+      {
+        "athleteId": 19269,
+        "rank": 31,
+        "points": 16,
+        "score": "02:15.27"
+      },
+      {
+        "athleteId": 24309,
+        "rank": 8,
+        "points": 39,
+        "score": "01:32.25"
+      },
+      {
+        "athleteId": 53314,
+        "rank": 32,
+        "points": 15,
+        "score": "02:17.31"
+      },
+      {
+        "athleteId": 13913,
+        "rank": 20,
+        "points": 27,
+        "score": "01:53.04"
+      },
+      {
+        "athleteId": 81616,
+        "rank": 33,
+        "points": 14,
+        "score": "02:27.62"
+      },
+      {
+        "athleteId": 105874,
+        "rank": 37,
+        "points": 10,
+        "score": "02:39.04"
+      },
+      {
+        "athleteId": 27065,
+        "rank": 36,
+        "points": 11,
+        "score": "02:34.66"
+      },
+      {
+        "athleteId": 1690,
+        "rank": 12,
+        "points": 35,
+        "score": "01:37.45"
+      },
+      {
+        "athleteId": 7314,
+        "rank": 24,
+        "points": 23,
+        "score": "02:00.27"
+      },
+      {
+        "athleteId": 8356,
+        "rank": 39,
+        "points": 8,
+        "score": "02:50.19"
+      },
+      {
+        "athleteId": 173837,
+        "rank": 11,
+        "points": 36,
+        "score": "01:35.41"
+      },
+      {
+        "athleteId": 15617,
+        "rank": 18,
+        "points": 29,
+        "score": "01:46.09"
+      },
+      {
+        "athleteId": 38209,
+        "rank": 41,
+        "points": 6,
+        "score": "CAP"
+      },
+      {
+        "athleteId": 105614,
+        "rank": 38,
+        "points": 9,
+        "score": "02:41.03"
+      },
+      {
+        "athleteId": 111574,
+        "rank": 41,
+        "points": 6,
+        "score": "CAP"
+      },
+      {
+        "athleteId": 53824,
+        "rank": 16,
+        "points": 31,
+        "score": "01:43.67"
+      },
+      {
+        "athleteId": 25957,
+        "rank": 40,
+        "points": 7,
+        "score": "02:50.22"
+      },
+      {
+        "athleteId": 28040,
+        "rank": 6,
+        "points": 41,
+        "score": "01:31.52"
+      },
+      {
+        "athleteId": 93488,
+        "rank": 35,
+        "points": 12,
+        "score": "02:28.96"
+      },
+      {
+        "athleteId": 9193,
+        "rank": 30,
+        "points": 17,
+        "score": "02:14.13"
+      },
+      {
+        "athleteId": 249055,
+        "rank": 43,
+        "points": 4,
+        "score": "4 ptsCAP+1"
+      },
+      {
+        "athleteId": 49510,
+        "rank": 28,
+        "points": 19,
+        "score": "02:09.74"
+      }
+    ],
+    "type": "for_time"
+  },
+  {
+    "name": "21-15-9 Complex",
+    "scores": [
+      {
+        "athleteId": 11435,
+        "rank": 1,
+        "points": 100,
+        "score": "04:16.63"
+      },
+      {
+        "athleteId": 153604,
+        "rank": 13,
+        "points": 61,
+        "score": "04:59.19"
+      },
+      {
+        "athleteId": 12485,
+        "rank": 3,
+        "points": 90,
+        "score": "04:29.29"
+      },
+      {
+        "athleteId": 124483,
+        "rank": 2,
+        "points": 95,
+        "score": "04:26.03"
+      },
+      {
+        "athleteId": 34796,
+        "rank": 4,
+        "points": 85,
+        "score": "04:36.33"
+      },
+      {
+        "athleteId": 8746,
+        "rank": 12,
+        "points": 63,
+        "score": "04:58.10"
+      },
+      {
+        "athleteId": 43761,
+        "rank": 28,
+        "points": 31,
+        "score": "05:30.13"
+      },
+      {
+        "athleteId": 2725,
+        "rank": 9,
+        "points": 69,
+        "score": "04:51.78"
+      },
+      {
+        "athleteId": 30740,
+        "rank": 18,
+        "points": 51,
+        "score": "05:08.93"
+      },
+      {
+        "athleteId": 47661,
+        "rank": 8,
+        "points": 71,
+        "score": "04:48.90"
+      },
+      {
+        "athleteId": 126813,
+        "rank": 21,
+        "points": 45,
+        "score": "05:15.16"
+      },
+      {
+        "athleteId": 7285,
+        "rank": 15,
+        "points": 57,
+        "score": "05:01.27"
+      },
+      {
+        "athleteId": 25569,
+        "rank": 24,
+        "points": 39,
+        "score": "05:24.84"
+      },
+      {
+        "athleteId": 35627,
+        "rank": 29,
+        "points": 29,
+        "score": "29 pts05:35.68"
+      },
+      {
+        "athleteId": 24156,
+        "rank": 20,
+        "points": 47,
+        "score": "05:14.90"
+      },
+      {
+        "athleteId": 131845,
+        "rank": 10,
+        "points": 67,
+        "score": "04:55.07"
+      },
+      {
+        "athleteId": 153625,
+        "rank": 35,
+        "points": 22,
+        "score": "06:00.07"
+      },
+      {
+        "athleteId": 199938,
+        "rank": 25,
+        "points": 37,
+        "score": "05:25.64"
+      },
+      {
+        "athleteId": 21343,
+        "rank": 7,
+        "points": 73,
+        "score": "04:46.93"
+      },
+      {
+        "athleteId": 4895,
+        "rank": 30,
+        "points": 27,
+        "score": "05:36.95"
+      },
+      {
+        "athleteId": 4945,
+        "rank": 16,
+        "points": 55,
+        "score": "05:04.32"
+      },
+      {
+        "athleteId": 19269,
+        "rank": 17,
+        "points": 53,
+        "score": "05:07.64"
+      },
+      {
+        "athleteId": 24309,
+        "rank": 11,
+        "points": 65,
+        "score": "04:55.11"
+      },
+      {
+        "athleteId": 53314,
+        "rank": 36,
+        "points": 21,
+        "score": "06:06.79"
+      },
+      {
+        "athleteId": 13913,
+        "rank": 23,
+        "points": 41,
+        "score": "05:20.77"
+      },
+      {
+        "athleteId": 81616,
+        "rank": 6,
+        "points": 75,
+        "score": "04:43.47"
+      },
+      {
+        "athleteId": 105874,
+        "rank": 14,
+        "points": 59,
+        "score": "05:01.00"
+      },
+      {
+        "athleteId": 27065,
+        "rank": 22,
+        "points": 43,
+        "score": "05:16.52"
+      },
+      {
+        "athleteId": 1690,
+        "rank": 5,
+        "points": 80,
+        "score": "04:41.97"
+      },
+      {
+        "athleteId": 7314,
+        "rank": 19,
+        "points": 49,
+        "score": "05:14.06"
+      },
+      {
+        "athleteId": 8356,
+        "rank": 26,
+        "points": 35,
+        "score": "05:27.80"
+      },
+      {
+        "athleteId": 173837,
+        "rank": 41,
+        "points": 16,
+        "score": "06:53.46"
+      },
+      {
+        "athleteId": 15617,
+        "rank": 31,
+        "points": 26,
+        "score": "05:42.99"
+      },
+      {
+        "athleteId": 38209,
+        "rank": 42,
+        "points": 15,
+        "score": "CAP+1"
+      },
+      {
+        "athleteId": 105614,
+        "rank": 39,
+        "points": 18,
+        "score": "06:26.93"
+      },
+      {
+        "athleteId": 111574,
+        "rank": 34,
+        "points": 23,
+        "score": "05:50.59"
+      },
+      {
+        "athleteId": 53824,
+        "rank": 38,
+        "points": 19,
+        "score": "06:11.01"
+      },
+      {
+        "athleteId": 25957,
+        "rank": 37,
+        "points": 20,
+        "score": "06:07.52"
+      },
+      {
+        "athleteId": 28040,
+        "rank": 32,
+        "points": 25,
+        "score": "05:46.88"
+      },
+      {
+        "athleteId": 93488,
+        "rank": 33,
+        "points": 24,
+        "score": "05:50.26"
+      },
+      {
+        "athleteId": 9193,
+        "rank": 42,
+        "points": 15,
+        "score": "CAP+1"
+      },
+      {
+        "athleteId": 249055,
+        "rank": 40,
+        "points": 17,
+        "score": "06:43.32"
+      },
+      {
+        "athleteId": 49510,
+        "rank": 27,
+        "points": 33,
+        "score": "05:29.95"
+      }
+    ],
+    "type": "for_time"
+  },
+  {
+    "name": "Muscle-up Biathlon",
+    "scores": [
+      {
+        "athleteId": 11435,
+        "rank": 13,
+        "points": 61,
+        "score": "13:07.44"
+      },
+      {
+        "athleteId": 153604,
+        "rank": 8,
+        "points": 71,
+        "score": "12:25.80"
+      },
+      {
+        "athleteId": 12485,
+        "rank": 37,
+        "points": 20,
+        "score": "17:02.32"
+      },
+      {
+        "athleteId": 124483,
+        "rank": 10,
+        "points": 67,
+        "score": "12:28.88"
+      },
+      {
+        "athleteId": 34796,
+        "rank": 7,
+        "points": 73,
+        "score": "12:18.52"
+      },
+      {
+        "athleteId": 8746,
+        "rank": 21,
+        "points": 45,
+        "score": "14:46.74"
+      },
+      {
+        "athleteId": 43761,
+        "rank": 2,
+        "points": 95,
+        "score": "11:15.24"
+      },
+      {
+        "athleteId": 2725,
+        "rank": 5,
+        "points": 80,
+        "score": "11:52.26"
+      },
+      {
+        "athleteId": 30740,
+        "rank": 11,
+        "points": 65,
+        "score": "12:45.28"
+      },
+      {
+        "athleteId": 47661,
+        "rank": 16,
+        "points": 55,
+        "score": "13:36.04"
+      },
+      {
+        "athleteId": 126813,
+        "rank": 33,
+        "points": 24,
+        "score": "16:30.38"
+      },
+      {
+        "athleteId": 7285,
+        "rank": 20,
+        "points": 47,
+        "score": "14:28.49"
+      },
+      {
+        "athleteId": 25569,
+        "rank": 18,
+        "points": 51,
+        "score": "14:10.30"
+      },
+      {
+        "athleteId": 35627,
+        "rank": 4,
+        "points": 85,
+        "score": "11:45.34"
+      },
+      {
+        "athleteId": 24156,
+        "rank": 30,
+        "points": 27,
+        "score": "15:55.95"
+      },
+      {
+        "athleteId": 131845,
+        "rank": 35,
+        "points": 22,
+        "score": "16:36.85"
+      },
+      {
+        "athleteId": 153625,
+        "rank": 27,
+        "points": 33,
+        "score": "15:28.30"
+      },
+      {
+        "athleteId": 199938,
+        "rank": 6,
+        "points": 75,
+        "score": "12:11.17"
+      },
+      {
+        "athleteId": 21343,
+        "rank": 9,
+        "points": 69,
+        "score": "12:26.47"
+      },
+      {
+        "athleteId": 4895,
+        "rank": 12,
+        "points": 63,
+        "score": "12:59.35"
+      },
+      {
+        "athleteId": 4945,
+        "rank": 15,
+        "points": 57,
+        "score": "13:22.09"
+      },
+      {
+        "athleteId": 19269,
+        "rank": 1,
+        "points": 100,
+        "score": "10:43.46"
+      },
+      {
+        "athleteId": 24309,
+        "rank": 28,
+        "points": 31,
+        "score": "15:37.63"
+      },
+      {
+        "athleteId": 53314,
+        "rank": 38,
+        "points": 19,
+        "score": "17:11.95"
+      },
+      {
+        "athleteId": 13913,
+        "rank": 36,
+        "points": 21,
+        "score": "16:40.52"
+      },
+      {
+        "athleteId": 81616,
+        "rank": 14,
+        "points": 59,
+        "score": "13:21.99"
+      },
+      {
+        "athleteId": 105874,
+        "rank": 24,
+        "points": 39,
+        "score": "15:08.96"
+      },
+      {
+        "athleteId": 27065,
+        "rank": 3,
+        "points": 90,
+        "score": "11:17.42"
+      },
+      {
+        "athleteId": 1690,
+        "rank": 39,
+        "points": 18,
+        "score": "17:13.79"
+      },
+      {
+        "athleteId": 7314,
+        "rank": 31,
+        "points": 26,
+        "score": "16:17.34"
+      },
+      {
+        "athleteId": 8356,
+        "rank": 29,
+        "points": 29,
+        "score": "29 pts15:38.59"
+      },
+      {
+        "athleteId": 173837,
+        "rank": 32,
+        "points": 25,
+        "score": "16:24.53"
+      },
+      {
+        "athleteId": 15617,
+        "rank": 26,
+        "points": 35,
+        "score": "15:23.13"
+      },
+      {
+        "athleteId": 38209,
+        "rank": 17,
+        "points": 53,
+        "score": "13:58.36"
+      },
+      {
+        "athleteId": 105614,
+        "rank": 34,
+        "points": 23,
+        "score": "16:32.14"
+      },
+      {
+        "athleteId": 111574,
+        "rank": 22,
+        "points": 43,
+        "score": "14:56.99"
+      },
+      {
+        "athleteId": 53824,
+        "rank": 40,
+        "points": 17,
+        "score": "CAP"
+      },
+      {
+        "athleteId": 25957,
+        "rank": 25,
+        "points": 37,
+        "score": "15:22.37"
+      },
+      {
+        "athleteId": 28040,
+        "rank": 19,
+        "points": 49,
+        "score": "14:27.77"
+      },
+      {
+        "athleteId": 93488,
+        "rank": 23,
+        "points": 41,
+        "score": "15:05.92"
+      },
+      {
+        "athleteId": 9193,
+        "rank": 42,
+        "points": 15,
+        "score": "CAP+7"
+      },
+      {
+        "athleteId": 249055,
+        "rank": 41,
+        "points": 16,
+        "score": "CAP+6"
+      },
+      {
+        "athleteId": 49510
+      }
+    ],
+    "type": "for_time"
+  },
+  {
+    "name": "Sprint Carry",
+    "scores": [
+      {
+        "athleteId": 11435,
+        "rank": 15,
+        "points": 57,
+        "score": "02:48.89"
+      },
+      {
+        "athleteId": 153604,
+        "rank": 10,
+        "points": 67,
+        "score": "02:44.67"
+      },
+      {
+        "athleteId": 12485,
+        "rank": 13,
+        "points": 61,
+        "score": "02:48.00"
+      },
+      {
+        "athleteId": 124483,
+        "rank": 19,
+        "points": 49,
+        "score": "02:50.07"
+      },
+      {
+        "athleteId": 34796,
+        "rank": 16,
+        "points": 55,
+        "score": "02:48.94"
+      },
+      {
+        "athleteId": 8746,
+        "rank": 2,
+        "points": 95,
+        "score": "02:33.83"
+      },
+      {
+        "athleteId": 43761,
+        "rank": 5,
+        "points": 80,
+        "score": "02:40.17"
+      },
+      {
+        "athleteId": 2725,
+        "rank": 11,
+        "points": 65,
+        "score": "02:45.13"
+      },
+      {
+        "athleteId": 30740,
+        "rank": 22,
+        "points": 43,
+        "score": "02:51.96"
+      },
+      {
+        "athleteId": 47661,
+        "rank": 35,
+        "points": 22,
+        "score": "03:02.49"
+      },
+      {
+        "athleteId": 126813,
+        "rank": 14,
+        "points": 59,
+        "score": "02:48.14"
+      },
+      {
+        "athleteId": 7285,
+        "rank": 7,
+        "points": 73,
+        "score": "02:42.78"
+      },
+      {
+        "athleteId": 25569,
+        "rank": 6,
+        "points": 75,
+        "score": "02:41.15"
+      },
+      {
+        "athleteId": 35627,
+        "rank": 3,
+        "points": 90,
+        "score": "02:35.88"
+      },
+      {
+        "athleteId": 24156,
+        "rank": 38,
+        "points": 19,
+        "score": "03:08.97"
+      },
+      {
+        "athleteId": 131845,
+        "rank": 4,
+        "points": 85,
+        "score": "02:37.45"
+      },
+      {
+        "athleteId": 153625,
+        "rank": 8,
+        "points": 71,
+        "score": "02:44.24"
+      },
+      {
+        "athleteId": 199938,
+        "rank": 25,
+        "points": 37,
+        "score": "02:53.39"
+      },
+      {
+        "athleteId": 21343,
+        "rank": 24,
+        "points": 39,
+        "score": "02:52.85"
+      },
+      {
+        "athleteId": 4895,
+        "rank": 12,
+        "points": 63,
+        "score": "02:46.11"
+      },
+      {
+        "athleteId": 4945,
+        "rank": 42,
+        "points": 15,
+        "score": "03:12.93"
+      },
+      {
+        "athleteId": 19269,
+        "rank": 39,
+        "points": 18,
+        "score": "03:09.55"
+      },
+      {
+        "athleteId": 24309,
+        "rank": 27,
+        "points": 33,
+        "score": "02:54.75"
+      },
+      {
+        "athleteId": 53314,
+        "rank": 1,
+        "points": 100,
+        "score": "02:22.16"
+      },
+      {
+        "athleteId": 13913,
+        "rank": 9,
+        "points": 69,
+        "score": "02:44.59"
+      },
+      {
+        "athleteId": 81616,
+        "rank": 30,
+        "points": 27,
+        "score": "02:58.35"
+      },
+      {
+        "athleteId": 105874,
+        "rank": 18,
+        "points": 51,
+        "score": "02:49.61"
+      },
+      {
+        "athleteId": 27065,
+        "rank": 29,
+        "points": 29,
+        "score": "29 pts02:57.86"
+      },
+      {
+        "athleteId": 1690,
+        "rank": 17,
+        "points": 53,
+        "score": "02:49.25"
+      },
+      {
+        "athleteId": 7314,
+        "rank": 28,
+        "points": 31,
+        "score": "02:54.89"
+      },
+      {
+        "athleteId": 8356,
+        "rank": 26,
+        "points": 35,
+        "score": "02:54.10"
+      },
+      {
+        "athleteId": 173837,
+        "rank": 34,
+        "points": 23,
+        "score": "03:02.47"
+      },
+      {
+        "athleteId": 15617,
+        "rank": 23,
+        "points": 41,
+        "score": "02:52.83"
+      },
+      {
+        "athleteId": 38209,
+        "rank": 21,
+        "points": 45,
+        "score": "02:51.89"
+      },
+      {
+        "athleteId": 105614,
+        "rank": 40,
+        "points": 17,
+        "score": "03:11.68"
+      },
+      {
+        "athleteId": 111574,
+        "rank": 32,
+        "points": 25,
+        "score": "02:59.99"
+      },
+      {
+        "athleteId": 53824,
+        "rank": 31,
+        "points": 26,
+        "score": "02:59.21"
+      },
+      {
+        "athleteId": 25957,
+        "rank": 20,
+        "points": 47,
+        "score": "02:51.24"
+      },
+      {
+        "athleteId": 28040,
+        "rank": 33,
+        "points": 24,
+        "score": "03:00.48"
+      },
+      {
+        "athleteId": 93488,
+        "rank": 37,
+        "points": 20,
+        "score": "03:06.50"
+      },
+      {
+        "athleteId": 9193,
+        "rank": 36,
+        "points": 21,
+        "score": "03:02.73"
+      },
+      {
+        "athleteId": 249055,
+        "rank": 41,
+        "points": 16,
+        "score": "03:12.22"
+      },
+      {
+        "athleteId": 49510
+      }
+    ],
+    "type": "for_time"
+  },
+  {
+    "name": "Clean Speed Ladder",
+    "scores": [
+      {
+        "athleteId": 11435,
+        "rank": 9,
+        "points": 69,
+        "score": "9 pt"
+      },
+      {
+        "athleteId": 153604,
+        "rank": 3,
+        "points": 90,
+        "score": "3 pt"
+      },
+      {
+        "athleteId": 12485,
+        "rank": 4,
+        "points": 85,
+        "score": "4 pt"
+      },
+      {
+        "athleteId": 124483,
+        "rank": 21,
+        "points": 45,
+        "score": "21 pt"
+      },
+      {
+        "athleteId": 34796,
+        "rank": 7,
+        "points": 73,
+        "score": "7 pt"
+      },
+      {
+        "athleteId": 8746,
+        "rank": 13,
+        "points": 61,
+        "score": "13 pt"
+      },
+      {
+        "athleteId": 43761,
+        "rank": 5,
+        "points": 80,
+        "score": "5 pt"
+      },
+      {
+        "athleteId": 2725,
+        "rank": 23,
+        "points": 41,
+        "score": "23 pt"
+      },
+      {
+        "athleteId": 30740,
+        "rank": 17,
+        "points": 53,
+        "score": "17 pt"
+      },
+      {
+        "athleteId": 47661,
+        "rank": 14,
+        "points": 59,
+        "score": "14 pt"
+      },
+      {
+        "athleteId": 126813,
+        "rank": 31,
+        "points": 26,
+        "score": "31 pt"
+      },
+      {
+        "athleteId": 7285,
+        "rank": 29,
+        "points": 29,
+        "score": "29 pts29 pt"
+      },
+      {
+        "athleteId": 25569,
+        "rank": 8,
+        "points": 71,
+        "score": "8 pt"
+      },
+      {
+        "athleteId": 35627,
+        "rank": 39,
+        "points": 18,
+        "score": "39 pt"
+      },
+      {
+        "athleteId": 24156,
+        "rank": 1,
+        "points": 100,
+        "score": "1 pt"
+      },
+      {
+        "athleteId": 131845,
+        "rank": 12,
+        "points": 63,
+        "score": "12 pt"
+      },
+      {
+        "athleteId": 153625,
+        "rank": 16,
+        "points": 55,
+        "score": "16 pt"
+      },
+      {
+        "athleteId": 199938,
+        "rank": 36,
+        "points": 21,
+        "score": "36 pt"
+      },
+      {
+        "athleteId": 21343,
+        "rank": 34,
+        "points": 23,
+        "score": "34 pt"
+      },
+      {
+        "athleteId": 4895,
+        "rank": 37,
+        "points": 20,
+        "score": "37 pt"
+      },
+      {
+        "athleteId": 4945,
+        "rank": 22,
+        "points": 43,
+        "score": "22 pt"
+      },
+      {
+        "athleteId": 19269,
+        "rank": 24,
+        "points": 39,
+        "score": "24 pt"
+      },
+      {
+        "athleteId": 24309,
+        "rank": 34,
+        "points": 23,
+        "score": "34 pt"
+      },
+      {
+        "athleteId": 53314,
+        "rank": 6,
+        "points": 75,
+        "score": "6 pt"
+      },
+      {
+        "athleteId": 13913,
+        "rank": 17,
+        "points": 53,
+        "score": "17 pt"
+      },
+      {
+        "athleteId": 81616,
+        "rank": 26,
+        "points": 35,
+        "score": "26 pt"
+      },
+      {
+        "athleteId": 105874,
+        "rank": 20,
+        "points": 47,
+        "score": "20 pt"
+      },
+      {
+        "athleteId": 27065,
+        "rank": 40,
+        "points": 17,
+        "score": "40 pt"
+      },
+      {
+        "athleteId": 1690,
+        "rank": 28,
+        "points": 31,
+        "score": "28 pt"
+      },
+      {
+        "athleteId": 7314,
+        "rank": 32,
+        "points": 25,
+        "score": "32 pt"
+      },
+      {
+        "athleteId": 8356,
+        "rank": 10,
+        "points": 67,
+        "score": "10 pt"
+      },
+      {
+        "athleteId": 173837,
+        "rank": 19,
+        "points": 49,
+        "score": "19 pt"
+      },
+      {
+        "athleteId": 15617,
+        "rank": 33,
+        "points": 24,
+        "score": "33 pt"
+      },
+      {
+        "athleteId": 38209,
+        "rank": 11,
+        "points": 65,
+        "score": "11 pt"
+      },
+      {
+        "athleteId": 105614,
+        "rank": 2,
+        "points": 95,
+        "score": "2 pt"
+      },
+      {
+        "athleteId": 111574,
+        "rank": 15,
+        "points": 57,
+        "score": "15 pt"
+      },
+      {
+        "athleteId": 53824,
+        "rank": 40,
+        "points": 17,
+        "score": "40 pt"
+      },
+      {
+        "athleteId": 25957,
+        "rank": 42,
+        "points": 15,
+        "score": "42 pt"
+      },
+      {
+        "athleteId": 28040,
+        "rank": 25,
+        "points": 37,
+        "score": "25 pt"
+      },
+      {
+        "athleteId": 93488,
+        "rank": 27,
+        "points": 33,
+        "score": "27 pt"
+      },
+      {
+        "athleteId": 9193,
+        "rank": 30,
+        "points": 27,
+        "score": "30 pt"
+      },
+      {
+        "athleteId": 249055,
+        "rank": 38,
+        "points": 19,
+        "score": "38 pt"
+      },
+      {
+        "athleteId": 49510
+      }
+    ],
+    "type": "for_points"
+  },
+  {
+    "name": "Push Pull",
+    "scores": [
+      {
+        "athleteId": 11435,
+        "rank": 2,
+        "points": 95,
+        "score": "04:48.34"
+      },
+      {
+        "athleteId": 153604,
+        "rank": 6,
+        "points": 75,
+        "score": "05:17.38"
+      },
+      {
+        "athleteId": 12485,
+        "rank": 22,
+        "points": 43,
+        "score": "06:04.57"
+      },
+      {
+        "athleteId": 124483,
+        "rank": 1,
+        "points": 100,
+        "score": "04:46.43"
+      },
+      {
+        "athleteId": 34796,
+        "rank": 29,
+        "points": 29,
+        "score": "29 pts06:30.56"
+      },
+      {
+        "athleteId": 8746,
+        "rank": 21,
+        "points": 45,
+        "score": "06:01.76"
+      },
+      {
+        "athleteId": 43761,
+        "rank": 24,
+        "points": 39,
+        "score": "06:14.86"
+      },
+      {
+        "athleteId": 2725,
+        "rank": 16,
+        "points": 55,
+        "score": "05:40.54"
+      },
+      {
+        "athleteId": 30740,
+        "rank": 3,
+        "points": 90,
+        "score": "05:03.51"
+      },
+      {
+        "athleteId": 47661,
+        "rank": 8,
+        "points": 71,
+        "score": "05:21.57"
+      },
+      {
+        "athleteId": 126813,
+        "rank": 9,
+        "points": 69,
+        "score": "05:22.31"
+      },
+      {
+        "athleteId": 7285,
+        "rank": 35,
+        "points": 22,
+        "score": "07:26.90"
+      },
+      {
+        "athleteId": 25569,
+        "rank": 20,
+        "points": 47,
+        "score": "05:58.34"
+      },
+      {
+        "athleteId": 35627,
+        "rank": 10,
+        "points": 67,
+        "score": "05:24.32"
+      },
+      {
+        "athleteId": 24156,
+        "rank": 14,
+        "points": 59,
+        "score": "05:36.84"
+      },
+      {
+        "athleteId": 131845,
+        "rank": 7,
+        "points": 73,
+        "score": "05:19.73"
+      },
+      {
+        "athleteId": 153625,
+        "rank": 15,
+        "points": 57,
+        "score": "05:38.82"
+      },
+      {
+        "athleteId": 199938,
+        "rank": 18,
+        "points": 51,
+        "score": "05:49.73"
+      },
+      {
+        "athleteId": 21343,
+        "rank": 19,
+        "points": 49,
+        "score": "05:54.87"
+      },
+      {
+        "athleteId": 4895,
+        "rank": 13,
+        "points": 61,
+        "score": "05:35.05"
+      },
+      {
+        "athleteId": 4945,
+        "rank": 12,
+        "points": 63,
+        "score": "05:27.60"
+      },
+      {
+        "athleteId": 19269,
+        "rank": 4,
+        "points": 85,
+        "score": "05:04.46"
+      },
+      {
+        "athleteId": 24309,
+        "rank": 27,
+        "points": 33,
+        "score": "06:28.40"
+      },
+      {
+        "athleteId": 53314,
+        "rank": 17,
+        "points": 53,
+        "score": "05:44.58"
+      },
+      {
+        "athleteId": 13913,
+        "rank": 25,
+        "points": 37,
+        "score": "06:20.23"
+      },
+      {
+        "athleteId": 81616,
+        "rank": 23,
+        "points": 41,
+        "score": "06:04.89"
+      },
+      {
+        "athleteId": 105874,
+        "rank": 34,
+        "points": 23,
+        "score": "07:17.64"
+      },
+      {
+        "athleteId": 27065,
+        "rank": 37,
+        "points": 20,
+        "score": "07:45.09"
+      },
+      {
+        "athleteId": 1690,
+        "rank": 38,
+        "points": 19,
+        "score": "07:59.79"
+      },
+      {
+        "athleteId": 7314,
+        "rank": 42,
+        "points": 15,
+        "score": "CAP+1"
+      },
+      {
+        "athleteId": 8356,
+        "rank": 5,
+        "points": 80,
+        "score": "05:07.16"
+      },
+      {
+        "athleteId": 173837,
+        "rank": 36,
+        "points": 21,
+        "score": "07:37.69"
+      },
+      {
+        "athleteId": 15617,
+        "rank": 11,
+        "points": 65,
+        "score": "05:27.29"
+      },
+      {
+        "athleteId": 38209,
+        "rank": 28,
+        "points": 31,
+        "score": "06:28.43"
+      },
+      {
+        "athleteId": 105614,
+        "rank": 26,
+        "points": 35,
+        "score": "06:27.58"
+      },
+      {
+        "athleteId": 111574,
+        "rank": 30,
+        "points": 27,
+        "score": "06:51.05"
+      },
+      {
+        "athleteId": 53824,
+        "rank": 39,
+        "points": 18,
+        "score": "08:32.61"
+      },
+      {
+        "athleteId": 25957,
+        "rank": 33,
+        "points": 24,
+        "score": "07:09.55"
+      },
+      {
+        "athleteId": 28040,
+        "rank": 41,
+        "points": 16,
+        "score": "09:25.06"
+      },
+      {
+        "athleteId": 93488,
+        "rank": 32,
+        "points": 25,
+        "score": "07:02.55"
+      },
+      {
+        "athleteId": 9193,
+        "rank": 40,
+        "points": 17,
+        "score": "09:10.42"
+      },
+      {
+        "athleteId": 249055,
+        "rank": 31,
+        "points": 26,
+        "score": "07:00.64"
+      },
+      {
+        "athleteId": 49510
+      }
+    ],
+    "type": "for_time"
+  },
+  {
+    "name": "Midline March",
+    "scores": [
+      {
+        "athleteId": 11435,
+        "rank": 1,
+        "points": 100,
+        "score": "05:25.0"
+      },
+      {
+        "athleteId": 153604,
+        "rank": 2,
+        "points": 95,
+        "score": "06:00.5"
+      },
+      {
+        "athleteId": 12485,
+        "rank": 4,
+        "points": 85,
+        "score": "06:06.4"
+      },
+      {
+        "athleteId": 124483,
+        "rank": 7,
+        "points": 73,
+        "score": "06:32.9"
+      },
+      {
+        "athleteId": 34796,
+        "rank": 6,
+        "points": 75,
+        "score": "06:23.5"
+      },
+      {
+        "athleteId": 8746,
+        "rank": 3,
+        "points": 90,
+        "score": "06:05.3"
+      },
+      {
+        "athleteId": 43761,
+        "rank": 11,
+        "points": 65,
+        "score": "07:13.6"
+      },
+      {
+        "athleteId": 2725,
+        "rank": 5,
+        "points": 80,
+        "score": "06:10.5"
+      },
+      {
+        "athleteId": 30740,
+        "rank": 26,
+        "points": 35,
+        "score": "08:08.8"
+      },
+      {
+        "athleteId": 47661,
+        "rank": 9,
+        "points": 69,
+        "score": "06:42.9"
+      },
+      {
+        "athleteId": 126813,
+        "rank": 19,
+        "points": 49,
+        "score": "07:45.6"
+      },
+      {
+        "athleteId": 7285,
+        "rank": 15,
+        "points": 57,
+        "score": "07:35.2"
+      },
+      {
+        "athleteId": 25569,
+        "rank": 29,
+        "points": 29,
+        "score": "29 pts08:43.5"
+      },
+      {
+        "athleteId": 35627,
+        "rank": 20,
+        "points": 47,
+        "score": "07:49.2"
+      },
+      {
+        "athleteId": 24156,
+        "rank": 36,
+        "points": 21,
+        "score": "09:33.5"
+      },
+      {
+        "athleteId": 131845,
+        "rank": 12,
+        "points": 63,
+        "score": "07:14.0"
+      },
+      {
+        "athleteId": 153625,
+        "rank": 28,
+        "points": 31,
+        "score": "08:27.8"
+      },
+      {
+        "athleteId": 199938,
+        "rank": 10,
+        "points": 67,
+        "score": "07:03.9"
+      },
+      {
+        "athleteId": 21343,
+        "rank": 24,
+        "points": 39,
+        "score": "07:57.7"
+      },
+      {
+        "athleteId": 4895,
+        "rank": 38,
+        "points": 19,
+        "score": "CAP+1"
+      },
+      {
+        "athleteId": 4945,
+        "rank": 18,
+        "points": 51,
+        "score": "07:43.9"
+      },
+      {
+        "athleteId": 19269,
+        "rank": 25,
+        "points": 37,
+        "score": "08:05.9"
+      },
+      {
+        "athleteId": 24309,
+        "rank": 31,
+        "points": 26,
+        "score": "08:58.5"
+      },
+      {
+        "athleteId": 53314,
+        "rank": 33,
+        "points": 24,
+        "score": "09:22.9"
+      },
+      {
+        "athleteId": 13913,
+        "rank": 17,
+        "points": 53,
+        "score": "07:41.7"
+      },
+      {
+        "athleteId": 81616,
+        "rank": 21,
+        "points": 45,
+        "score": "07:52.8"
+      },
+      {
+        "athleteId": 105874,
+        "rank": 35,
+        "points": 22,
+        "score": "09:26.6"
+      },
+      {
+        "athleteId": 27065,
+        "rank": 23,
+        "points": 41,
+        "score": "07:54.8"
+      },
+      {
+        "athleteId": 1690,
+        "rank": 34,
+        "points": 23,
+        "score": "09:23.3"
+      },
+      {
+        "athleteId": 7314,
+        "rank": 14,
+        "points": 59,
+        "score": "07:30.4"
+      },
+      {
+        "athleteId": 8356,
+        "rank": 40,
+        "points": 17,
+        "score": "CAP+2"
+      },
+      {
+        "athleteId": 173837,
+        "rank": 16,
+        "points": 55,
+        "score": "07:36.9"
+      },
+      {
+        "athleteId": 15617,
+        "rank": 38,
+        "points": 19,
+        "score": "CAP+1"
+      },
+      {
+        "athleteId": 38209,
+        "rank": 27,
+        "points": 33,
+        "score": "08:21.6"
+      },
+      {
+        "athleteId": 105614,
+        "rank": 37,
+        "points": 20,
+        "score": "09:43.2"
+      },
+      {
+        "athleteId": 111574,
+        "rank": 22,
+        "points": 43,
+        "score": "07:53.9"
+      },
+      {
+        "athleteId": 53824,
+        "rank": 13,
+        "points": 61,
+        "score": "07:15.1"
+      },
+      {
+        "athleteId": 25957,
+        "rank": 8,
+        "points": 71,
+        "score": "06:36.9"
+      },
+      {
+        "athleteId": 28040,
+        "rank": 32,
+        "points": 25,
+        "score": "09:16.3"
+      },
+      {
+        "athleteId": 93488,
+        "rank": 40,
+        "points": 17,
+        "score": "CAP+2"
+      },
+      {
+        "athleteId": 9193,
+        "rank": 30,
+        "points": 27,
+        "score": "08:54.9"
+      },
+      {
+        "athleteId": 249055,
+        "rank": 40,
+        "points": 17,
+        "score": "CAP+2"
+      },
+      {
+        "athleteId": 49510
+      }
+    ],
+    "type": "for_time"
+  },
+  {
+    "name": "Thick 'N Quick",
+    "scores": [
+      {
+        "athleteId": 11435,
+        "rank": 1,
+        "points": 100,
+        "score": "01:40.3"
+      },
+      {
+        "athleteId": 153604,
+        "rank": 2,
+        "points": 95,
+        "score": "01:59.0"
+      },
+      {
+        "athleteId": 12485,
+        "rank": 4,
+        "points": 85,
+        "score": "02:15.5"
+      },
+      {
+        "athleteId": 124483,
+        "rank": 14,
+        "points": 59,
+        "score": "03:59.0"
+      },
+      {
+        "athleteId": 34796,
+        "rank": 8,
+        "points": 71,
+        "score": "02:41.6"
+      },
+      {
+        "athleteId": 8746,
+        "rank": 26,
+        "points": 35,
+        "score": "CAP+4"
+      },
+      {
+        "athleteId": 43761,
+        "rank": 3,
+        "points": 90,
+        "score": "02:03.4"
+      },
+      {
+        "athleteId": 2725,
+        "rank": 17,
+        "points": 53,
+        "score": "CAP+1"
+      },
+      {
+        "athleteId": 30740,
+        "rank": 6,
+        "points": 75,
+        "score": "02:29.3"
+      },
+      {
+        "athleteId": 47661,
+        "rank": 13,
+        "points": 61,
+        "score": "03:47.1"
+      },
+      {
+        "athleteId": 126813,
+        "rank": 12,
+        "points": 63,
+        "score": "03:43.3"
+      },
+      {
+        "athleteId": 7285,
+        "rank": 10,
+        "points": 67,
+        "score": "02:59.4"
+      },
+      {
+        "athleteId": 25569,
+        "rank": 19,
+        "points": 49,
+        "score": "CAP+2"
+      },
+      {
+        "athleteId": 35627,
+        "rank": 15,
+        "points": 57,
+        "score": "03:59.4"
+      },
+      {
+        "athleteId": 24156,
+        "rank": 5,
+        "points": 80,
+        "score": "02:17.2"
+      },
+      {
+        "athleteId": 131845,
+        "rank": 29,
+        "points": 29,
+        "score": "29 ptsCAP+5"
+      },
+      {
+        "athleteId": 153625,
+        "rank": 7,
+        "points": 73,
+        "score": "02:39.8"
+      },
+      {
+        "athleteId": 199938,
+        "rank": 29,
+        "points": 29,
+        "score": "29 ptsCAP+5"
+      },
+      {
+        "athleteId": 21343,
+        "rank": 19,
+        "points": 49,
+        "score": "CAP+2"
+      },
+      {
+        "athleteId": 4895,
+        "rank": 17,
+        "points": 53,
+        "score": "CAP+1"
+      },
+      {
+        "athleteId": 4945,
+        "rank": 19,
+        "points": 49,
+        "score": "CAP+2"
+      },
+      {
+        "athleteId": 19269,
+        "rank": 9,
+        "points": 69,
+        "score": "02:54.4"
+      },
+      {
+        "athleteId": 24309,
+        "rank": 23,
+        "points": 41,
+        "score": "CAP+3"
+      },
+      {
+        "athleteId": 53314,
+        "rank": 26,
+        "points": 35,
+        "score": "CAP+4"
+      },
+      {
+        "athleteId": 13913,
+        "rank": 11,
+        "points": 65,
+        "score": "03:07.7"
+      },
+      {
+        "athleteId": 81616,
+        "rank": 26,
+        "points": 35,
+        "score": "CAP+4"
+      },
+      {
+        "athleteId": 105874,
+        "rank": 23,
+        "points": 41,
+        "score": "CAP+3"
+      },
+      {
+        "athleteId": 27065,
+        "rank": 23,
+        "points": 41,
+        "score": "CAP+3"
+      },
+      {
+        "athleteId": 1690,
+        "rank": 19,
+        "points": 49,
+        "score": "CAP+2"
+      },
+      {
+        "athleteId": 7314,
+        "rank": 16,
+        "points": 55,
+        "score": "CAP"
+      },
+      {
+        "athleteId": 8356
+      },
+      {
+        "athleteId": 173837
+      },
+      {
+        "athleteId": 15617
+      },
+      {
+        "athleteId": 38209
+      },
+      {
+        "athleteId": 105614
+      },
+      {
+        "athleteId": 111574
+      },
+      {
+        "athleteId": 53824
+      },
+      {
+        "athleteId": 25957
+      },
+      {
+        "athleteId": 28040
+      },
+      {
+        "athleteId": 93488
+      },
+      {
+        "athleteId": 9193
+      },
+      {
+        "athleteId": 249055
+      },
+      {
+        "athleteId": 49510
+      }
+    ],
+    "type": "for_time"
+  },
+  {
+    "name": "Double Grace",
+    "scores": [
+      {
+        "athleteId": 11435,
+        "rank": 1,
+        "points": 100,
+        "score": "05:05.6"
+      },
+      {
+        "athleteId": 153604,
+        "rank": 11,
+        "points": 65,
+        "score": "05:56.6"
+      },
+      {
+        "athleteId": 12485,
+        "rank": 2,
+        "points": 95,
+        "score": "05:08.8"
+      },
+      {
+        "athleteId": 124483,
+        "rank": 23,
+        "points": 41,
+        "score": "06:51.5"
+      },
+      {
+        "athleteId": 34796,
+        "rank": 8,
+        "points": 71,
+        "score": "05:44.6"
+      },
+      {
+        "athleteId": 8746,
+        "rank": 10,
+        "points": 67,
+        "score": "05:52.5"
+      },
+      {
+        "athleteId": 43761,
+        "rank": 7,
+        "points": 73,
+        "score": "05:36.1"
+      },
+      {
+        "athleteId": 2725,
+        "rank": 28,
+        "points": 31,
+        "score": "CAP+8"
+      },
+      {
+        "athleteId": 30740,
+        "rank": 15,
+        "points": 57,
+        "score": "06:25.3"
+      },
+      {
+        "athleteId": 47661,
+        "rank": 3,
+        "points": 90,
+        "score": "05:09.0"
+      },
+      {
+        "athleteId": 126813,
+        "rank": 13,
+        "points": 61,
+        "score": "06:16.9"
+      },
+      {
+        "athleteId": 7285,
+        "rank": 6,
+        "points": 75,
+        "score": "05:27.8"
+      },
+      {
+        "athleteId": 25569,
+        "rank": 27,
+        "points": 33,
+        "score": "CAP+7"
+      },
+      {
+        "athleteId": 35627,
+        "rank": 21,
+        "points": 45,
+        "score": "06:42.4"
+      },
+      {
+        "athleteId": 24156,
+        "rank": 17,
+        "points": 53,
+        "score": "06:31.9"
+      },
+      {
+        "athleteId": 131845,
+        "rank": 4,
+        "points": 85,
+        "score": "05:20.3"
+      },
+      {
+        "athleteId": 153625,
+        "rank": 12,
+        "points": 63,
+        "score": "06:11.4"
+      },
+      {
+        "athleteId": 199938,
+        "rank": 22,
+        "points": 43,
+        "score": "06:50.3"
+      },
+      {
+        "athleteId": 21343,
+        "rank": 19,
+        "points": 49,
+        "score": "06:37.9"
+      },
+      {
+        "athleteId": 4895,
+        "rank": 28,
+        "points": 31,
+        "score": "CAP+8"
+      },
+      {
+        "athleteId": 4945,
+        "rank": 5,
+        "points": 80,
+        "score": "05:27.7"
+      },
+      {
+        "athleteId": 19269,
+        "rank": 26,
+        "points": 35,
+        "score": "CAP+3"
+      },
+      {
+        "athleteId": 24309,
+        "rank": 9,
+        "points": 69,
+        "score": "05:51.2"
+      },
+      {
+        "athleteId": 53314,
+        "rank": 18,
+        "points": 51,
+        "score": "06:37.6"
+      },
+      {
+        "athleteId": 13913,
+        "rank": 25,
+        "points": 37,
+        "score": "CAP+1"
+      },
+      {
+        "athleteId": 81616,
+        "rank": 16,
+        "points": 55,
+        "score": "06:30.5"
+      },
+      {
+        "athleteId": 105874,
+        "rank": 20,
+        "points": 47,
+        "score": "06:42.0"
+      },
+      {
+        "athleteId": 27065,
+        "rank": 14,
+        "points": 59,
+        "score": "06:20.2"
+      },
+      {
+        "athleteId": 1690,
+        "rank": 24,
+        "points": 39,
+        "score": "07:00.0"
+      },
+      {
+        "athleteId": 7314,
+        "rank": 30,
+        "points": 27,
+        "score": "CAP+10"
+      },
+      {
+        "athleteId": 8356
+      },
+      {
+        "athleteId": 173837
+      },
+      {
+        "athleteId": 15617
+      },
+      {
+        "athleteId": 38209
+      },
+      {
+        "athleteId": 105614
+      },
+      {
+        "athleteId": 111574
+      },
+      {
+        "athleteId": 53824
+      },
+      {
+        "athleteId": 25957
+      },
+      {
+        "athleteId": 28040
+      },
+      {
+        "athleteId": 93488
+      },
+      {
+        "athleteId": 9193
+      },
+      {
+        "athleteId": 249055
+      },
+      {
+        "athleteId": 49510
+      }
+    ],
+    "type": "for_time"
+  }
+];
