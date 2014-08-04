@@ -1,6 +1,6 @@
 // Get the wods
 $.ajax({
-  url: '/js/wods.json',
+  url: '/crossfit-games/js/wods.json',
   dataType: 'json',
   async: false,
   success: function(wods) {
@@ -10,7 +10,7 @@ $.ajax({
 
 // Get the athletes
 $.ajax({
-  url: '/js/athletes.json',
+  url: '/crossfit-games/js/athletes.json',
   dataType: 'json',
   async: false,
   success: function(athletes) {
